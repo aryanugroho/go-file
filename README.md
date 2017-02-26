@@ -34,3 +34,15 @@ service.Init()
 client := file.NewClient("go.micro.srv.file", service.Client())
 client.Download("remote.file", "local.file")
 ```
+
+## Hand Wavy Bench
+
+Local hand wavy benchmarks for rough estimates on transfer speed
+
+size	|	time taken
+----	|	----------
+1mb	|	15.590542ms
+8mb	|	75.184788ms
+64mb	|	516.236417ms
+128mb	|	1.141906576s
+1024mb	|	9.794891634s
