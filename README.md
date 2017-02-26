@@ -49,11 +49,11 @@ size	|	time taken
 
 Using connection pooling and caching selector
 
-size    |       time taken
-----            ----------
-1mb     |       13.521179ms
-8mb     |       53.160487ms
-64mb    |       415.388025ms
-128mb   |       889.409332ms
-512mb   |       4.177052391s
-1024mb  |       8.347038098s
+size	|	time taken
+----	|	----------
+1mb	|	13.521179ms
+8mb	|	53.160487ms
+64mb	|	415.388025ms
+128mb	|	889.409332ms
+512mb	|	4.177052391s
+1024mb	|	8.347038098s
