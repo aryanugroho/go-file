@@ -1,4 +1,4 @@
-# Go File
+# Go File [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/go-file?status.svg)](https://godoc.org/github.com/micro/go-file)
 
 Go File is a file server library leveraging go-micro. It enables you to serve and consume files via RPC.
 
