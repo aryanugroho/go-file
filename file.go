@@ -5,6 +5,7 @@ import (
 
 	proto "github.com/micro/go-file/proto"
 	"github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/server"
 )
 
 // Client is the client interface to access files
@@ -32,4 +33,9 @@ func NewHandler(readDir string) proto.FileHandler {
 			files: make(map[int64]*os.File),
 		},
 	}
+}
+
+// RegisterHandler is a convenience method for registering a handler
+func RegisterHandler(s server.Server, readDir string) {
+	proto.RegisterFileHandler(s, NewHandler(readDir))
 }
