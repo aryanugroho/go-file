@@ -46,3 +46,14 @@ size	|	time taken
 64mb	|	516.236417ms
 128mb	|	1.141906576s
 1024mb	|	9.794891634s
+
+Using connection pooling and caching selector
+
+size    |       time taken
+----            ----------
+1mb     |       13.521179ms
+8mb     |       53.160487ms
+64mb    |       415.388025ms
+128mb   |       889.409332ms
+512mb   |       4.177052391s
+1024mb  |       8.347038098s
